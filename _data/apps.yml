@@ -8,9 +8,6 @@ Personal:
     heroku: Floppy/ruby-version-badger
   status:
     github: Floppy/status
-CDC:
-  cri du chat:
-    github: cdcssg/cdcssg.github.io
 OpenPolitics:
   openpolitics:
     github: openpolitics/openpolitics.github.io
@@ -20,12 +17,9 @@ OpenPolitics:
     github: openpolitics/leanpub-manifesto
   uk-taxes:
     github: openpolitics/uk-taxes
-  votebot:
-    github: openpolitics/votebot
+  groupthink:
+    github: openpolitics/groupthink
     heroku: votebot
-OverEngineered:
-  website: 
-    github: OverEngineeredConf/overengineeredconf.github.io
 Something New:
   somethingnew.org.uk:
     github: SomethingNewUK/somethingnewuk.github.io
