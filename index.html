@@ -30,9 +30,6 @@ layout: default
       <th>
         Quality
       </th>
-      <th>
-        Deployment
-      </th>
     </tr>
     {% for app in group[1] %}
       <tr>
@@ -73,13 +70,6 @@ layout: default
           {% if app[1]["codeclimate"] %}
             <a href='https://codeclimate.com/github/{{app[1]["github"]}}'>
               <img src='https://img.shields.io/codeclimate/maintainability/{{app[1]["github"]}}' alt='Quality'/>
-            </a>
-          {% endif %}
-        </td>
-        <td>
-          {% if app[1]["heroku"] %}
-            <a href='https://dashboard.heroku.com/apps/{{app[1]["heroku"]}}'>
-              <img src='https://heroku-badge.herokuapp.com/?app={{app[1]["heroku"]}}&style=flat&svg=1' alt='Deployment'/>
             </a>
           {% endif %}
         </td>
