@@ -8,6 +8,12 @@ Personal:
     heroku: Floppy/ruby-version-badger
   status:
     github: Floppy/status
+  jekyll-test:
+    github: Floppy/jekyll-test
+  climatestats:
+    github: Floppy/climatestats
+  Kulaverse:
+    github: Floppy/kulaverse
 OpenPolitics:
   openpolitics:
     github: openpolitics/openpolitics.github.io
