@@ -1,9 +1,9 @@
 Personal:
   floppy.org.uk:
     github: Floppy/floppy.github.io
-  cv: 
+  cv:
     github: Floppy/cv
-  ruby-version-badger: 
+  ruby-version-badger:
     github: Floppy/ruby-version-badger
     heroku: Floppy/ruby-version-badger
   status:
@@ -20,6 +20,8 @@ OpenPolitics:
   groupthink:
     github: openpolitics/groupthink
     heroku: votebot
+    coveralls: true
+    codeclimate: true
 Something New:
   somethingnew.org.uk:
     github: SomethingNewUK/somethingnewuk.github.io

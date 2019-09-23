@@ -55,9 +55,11 @@ layout: default
           </a>
         </td>
         <td>
-          <a href='https://coveralls.io/github/{{app[1]["github"]}}'>
-            <img src='https://img.shields.io/coveralls/{{app[1]["github"]}}.svg' alt='Coverage'/>
-          </a>
+          {% if app[1]["coveralls"] %}
+            <a href='https://coveralls.io/github/{{app[1]["github"]}}'>
+              <img src='https://img.shields.io/coveralls/{{app[1]["github"]}}.svg' alt='Coverage'/>
+            </a>
+          {% endif %}
         </td>
         <td>
           <img src='https://ruby-version-badger.herokuapp.com/github/{{app[1]["github"]}}' alt='Language'/>
@@ -68,9 +70,11 @@ layout: default
           </a>
         </td>
         <td>
-          <a href='https://codeclimate.com/github/{{app[1]["github"]}}'>
-            <img src='https://img.shields.io/codeclimate/github/{{app[1]["github"]}}.svg?label=quality' alt='Quality'/>
-          </a>
+          {% if app[1]["codeclimate"] %}
+            <a href='https://codeclimate.com/github/{{app[1]["github"]}}'>
+              <img src='https://img.shields.io/codeclimate/maintainability/{{app[1]["github"]}}' alt='Quality'/>
+            </a>
+          {% endif %}
         </td>
         <td>
           {% if app[1]["heroku"] %}
