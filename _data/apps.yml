@@ -1,24 +1,32 @@
 Personal:
   floppy.org.uk:
     github: Floppy/floppy.github.io
+    deployment: github-pages
   cv:
     github: Floppy/cv
+    deployment: github-pages
   ruby-version-badger:
     github: Floppy/ruby-version-badger
     heroku: Floppy/ruby-version-badger
   status:
     github: Floppy/status
+    deployment: github-pages
   jekyll-test:
     github: Floppy/jekyll-test
   Dataslate:
     github: Floppy/dataslate
+    deployment: github-pages
+    test_workflow: Build
   VanDAM:
     github: Floppy/van_dam
+    test_workflow: Ruby
 OpenPolitics:
   openpolitics:
     github: openpolitics/openpolitics.github.io
+    deployment: github-pages
   manifesto:
     github: openpolitics/manifesto
+    deployment: openpolitics-manifesto
   groupthink:
     github: openpolitics/groupthink
     coveralls: true
@@ -26,14 +34,18 @@ OpenPolitics:
 Something New:
   somethingnew.org.uk:
     github: SomethingNewUK/somethingnewuk.github.io
+    deployment: github-pages
   popolo:
     github: SomethingNewUK/popolo-data
+    deployment: github-pages
   finances:
     github: SomethingNewUK/finances
+    deployment: github-pages
   advertising:
     github: SomethingNewUK/advertising
   redirector:
     github: SomethingNewUK/redirector
+    deployment: github-pages
   id generator:
     github: SomethingNewUK/id_generator
 Data Liberation Front:

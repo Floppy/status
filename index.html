@@ -16,7 +16,10 @@ layout: default
         Pull Requests
       </th>
       <th>
-        Build
+        Tests
+      </th>
+      <th>
+        Checks
       </th>
       <!-- <th>
         Coverage
@@ -50,8 +53,15 @@ layout: default
           </a>
         </td>
         <td>
+          {% if app[1]["test_workflow"] %}
+            <a href='https://github.com/{{app[1]["github"]}}/actions/workflows'>
+              <img src='https://img.shields.io/github/workflow/status/{{app[1]["github"]}}/{{app[1]["test_workflow"]}}.svg' alt='Tests'/>
+            </a>
+          {% endif %}
+        </td>
+        <td>
           <a href='https://github.com/{{app[1]["github"]}}/actions'>
-            <img src='https://img.shields.io/github/checks-status/{{app[1]["github"]}}/main.svg' alt='Build'/>
+            <img src='https://img.shields.io/github/checks-status/{{app[1]["github"]}}/main.svg' alt='Checks'/>
           </a>
         </td>
         <!-- <td>
@@ -77,9 +87,11 @@ layout: default
           {% endif %}
         </td> -->
         <td>
-          <a href='https://github.com/{{app[1]["github"]}}/deployments'>
-            <img src='https://img.shields.io/github/deployments/{{app[1]["github"]}}.svg' alt='Deployment'/>
-          </a>
+          {% if app[1]["deployment"] %}
+            <a href='https://github.com/{{app[1]["github"]}}/deployments'>
+              <img src='https://img.shields.io/github/deployments/{{app[1]["github"]}}/{{app[1]["deployment"]}}.svg' alt='Deployment'/>
+            </a>
+          {% endif %}
         </td>
       </tr>
     {% endfor %}
