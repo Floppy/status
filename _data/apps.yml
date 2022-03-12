@@ -16,7 +16,7 @@ Personal:
   Dataslate:
     github: Floppy/dataslate
     deployment: github-pages
-    test_workflow: Build
+    test_workflow: CI
   VanDAM:
     github: Floppy/van_dam
     test_workflow: Ruby
@@ -31,6 +31,7 @@ OpenPolitics:
     github: openpolitics/groupthink
     coveralls: true
     codeclimate: true
+    test_workflow: CI
 Something New:
   somethingnew.org.uk:
     github: SomethingNewUK/somethingnewuk.github.io
