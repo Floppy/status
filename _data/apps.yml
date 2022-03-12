@@ -10,22 +10,19 @@ Personal:
     github: Floppy/status
   jekyll-test:
     github: Floppy/jekyll-test
-  climatestats:
-    github: Floppy/climatestats
-  Kulaverse:
-    github: Floppy/kulaverse
+  Dataslate:
+    github: Floppy/dataslate
+  VanDAM:
+    github: Floppy/van_dam
 OpenPolitics:
   openpolitics:
     github: openpolitics/openpolitics.github.io
   manifesto:
     github: openpolitics/manifesto
-  leanpub-manifesto:
-    github: openpolitics/leanpub-manifesto
   uk-taxes:
     github: openpolitics/uk-taxes
   groupthink:
     github: openpolitics/groupthink
-    heroku: votebot
     coveralls: true
     codeclimate: true
 Something New:
@@ -41,3 +38,8 @@ Something New:
     github: SomethingNewUK/redirector
   id generator:
     github: SomethingNewUK/id_generator
+Data Liberation Front:
+  CSVLint.io:
+    github: Data-Liberation-Front/csvlint.io
+  CSVLint.rb:
+    github: Data-Liberation-Front/csvlint.rb
