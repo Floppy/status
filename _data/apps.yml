@@ -19,8 +19,6 @@ OpenPolitics:
     github: openpolitics/openpolitics.github.io
   manifesto:
     github: openpolitics/manifesto
-  uk-taxes:
-    github: openpolitics/uk-taxes
   groupthink:
     github: openpolitics/groupthink
     coveralls: true
