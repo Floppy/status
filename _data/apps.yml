@@ -60,6 +60,6 @@ Data Liberation Front:
   data_kitten:
     github: Data-Liberation-Front/data_kitten
     test_workflow: CI
-  resumable_upload:
-    github: Data-Liberation-Front/resumable_upload
+  resumable-upload:
+    github: Data-Liberation-Front/resumable-upload
     test_workflow: CI
