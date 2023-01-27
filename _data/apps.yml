@@ -2,11 +2,11 @@ Personal:
   floppy.org.uk:
     github: Floppy/floppy.github.io
     deployment: github-pages
-    test_workflow: test
+    test_workflow: push
   cv:
     github: Floppy/cv
     deployment: github-pages
-    test_workflow: test
+    test_workflow: push
   ruby-version-badger:
     github: Floppy/ruby-version-badger
     heroku: Floppy/ruby-version-badger
@@ -18,7 +18,7 @@ Personal:
   Dataslate:
     github: Floppy/dataslate
     deployment: github-pages
-    test_workflow: CI
+    test_workflow: test
   VanDAM:
     github: Floppy/van_dam
     test_workflow: Ruby
@@ -26,7 +26,7 @@ OpenPolitics:
   openpolitics:
     github: openpolitics/openpolitics.github.io
     deployment: github-pages
-    test_workflow: test
+    test_workflow: push
   manifesto:
     github: openpolitics/manifesto
     deployment: openpolitics-manifesto
@@ -34,12 +34,12 @@ OpenPolitics:
     github: openpolitics/groupthink
     coveralls: true
     codeclimate: true
-    test_workflow: CI
+    test_workflow: push
 Something New:
   somethingnew.org.uk:
     github: SomethingNewUK/somethingnewuk.github.io
     deployment: github-pages
-    test_workflow: test
+    test_workflow: push
   popolo:
     github: SomethingNewUK/popolo-data
     deployment: github-pages
@@ -51,20 +51,20 @@ Something New:
   redirector:
     github: SomethingNewUK/redirector
     deployment: github-pages
-    test_workflow: test
+    test_workflow: push
   id generator:
     github: SomethingNewUK/id_generator
 Data Liberation Front:
   CSVLint.io:
     github: Data-Liberation-Front/csvlint.io
     deployment: csvlint
-    test_workflow: CI
+    test_workflow: push
   CSVLint.rb:
     github: Data-Liberation-Front/csvlint.rb
-    test_workflow: CI
+    test_workflow: push
   data_kitten:
     github: Data-Liberation-Front/data_kitten
-    test_workflow: CI
+    test_workflow: push
   resumable-upload:
     github: Data-Liberation-Front/resumable-upload
-    test_workflow: CI
+    test_workflow: push
