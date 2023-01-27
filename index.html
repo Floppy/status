@@ -55,7 +55,7 @@ layout: default
         <td>
           {% if app[1]["test_workflow"] %}
             <a href='https://github.com/{{app[1]["github"]}}/actions/workflows'>
-              <img src='https://img.shields.io/github/workflow/status/{{app[1]["github"]}}/{{app[1]["test_workflow"]}}.svg' alt='Tests'/>
+              <img src='https://img.shields.io/github/actions/workflow/status/{{app[1]["github"]}}/{{app[1]["test_workflow"]}}.yml' alt='Tests'/>
             </a>
           {% endif %}
         </td>
