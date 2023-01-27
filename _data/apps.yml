@@ -21,7 +21,7 @@ Personal:
     test_workflow: test
   VanDAM:
     github: Floppy/van_dam
-    test_workflow: Ruby
+    test_workflow: push
 OpenPolitics:
   openpolitics:
     github: openpolitics/openpolitics.github.io
